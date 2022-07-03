@@ -1,0 +1,20 @@
+{
+  "name": "p5_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "js-coroutines": "^2.4.36",
+    "log4js": "^6.5.2",
+    "loglevel": "^1.8.0",
+    "p5": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
