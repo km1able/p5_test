@@ -45,6 +45,9 @@ class ControllerMenu {
     getActorPosition() { 
         return this.actor.position; 
     }
+    getActorSpeed() { 
+        return this.actor.speed; 
+    }
     getVector(){ 
         this.position = this.actor.getPosition(); 
         console.log("ControllerMenu being polled is at this position: " +  this.position);
@@ -200,6 +203,9 @@ class Controller {
     getVector() { 
         let value = this.controllerMenu.getVector()
         return value; 
+    }
+    getActorSpeed() { 
+        return this.controllerMenu.getActorSpeed(); 
     }
 } //end class: Controller
 

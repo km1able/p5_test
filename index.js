@@ -91,6 +91,7 @@ function setup () {
     controller.setActorForController(actor)
 
     controller.updatePosition({x:150, y:150});
+   
    // let vector = controller.getVector(); 
    // s.move(); 
 }

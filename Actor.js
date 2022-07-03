@@ -2,6 +2,7 @@ class Actor {
     constructor() { 
         this.position = {x:0, y:0};
         this.controller = new Controller();
+        this.speed = random(0, 1); 
 
     }
 
@@ -13,11 +14,15 @@ class Actor {
     getPosition() { 
         return this.position; 
     }
+    getSpeed () { 
+        return this.speed; 
+    }
     printPosition() { 
         console.log("Position: " + this.position)
         console.log("Position: " + this.position.x)
         console.log("Position: " + this.position.y);
     }
+
 }
 
 class Coordinate { 
